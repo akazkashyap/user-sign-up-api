@@ -3,7 +3,7 @@ import bcrypt from "bcrypt"
 import jsonwebtoken from "jsonwebtoken"
 import { error } from "console";
 
-const JWT_SECRETCODE = "qwertyuiop#123"
+const JWT_SECRETCODE = process.env.JWT_SECRETCODE
 
 
 const userSchema = mongoose.Schema(
