@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 
-const DB_URL = process.env.DB_URL || "mongodb+srv://urekmazino:je52xfDdB1khZUZm@worker-app-database.i7no2ax.mongodb.net/user-api?retryWrites=true&w=majority"
+const DB_URL = process.env.DB_URL
 
 export const database = async () => {
     try {
